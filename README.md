@@ -176,6 +176,8 @@ Multiple models were trained and evaluated on the processed dataset using **accu
 
 
 **Vader**
+
+
 |            | Precision | Recall | F1-Score | Support |
 |------------|-----------|--------|----------|---------|
 | Negative   | 0.49      | 0.24   | 0.32     | 1421    |
