@@ -10,6 +10,9 @@
 
 ### Business Insights and Applications:
 
+Code can be found [here](https://github.com/aeryllvon/sentiment-analysis/blob/main/NLP_Amazon.ipynb)
+
+
 **Strategic Business Decision:**
 
 The **insights** derived from the **sentiment analysis** can help businesses understand **customer** sentiments, allowing them to make **informed and strategic** business decisions.
