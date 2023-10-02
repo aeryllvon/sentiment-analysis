@@ -92,7 +92,7 @@ The **dataset** consisted of **product reviews**, each labeled with a score indi
 
 **Data Pre-processing**
 
-The **raw** text data was **preprocessed** by removing **HTML** tags, converting to lowercase, tokenizing, removing stopwords and performing stemming and lemmatization.
+The **raw** text data was **preprocessed** by removing **HTML** tags, **converting** to **lowercase**, **tokenizing**, **removing stopwords** and **performing stemming** and **lemmatization** set.
 
 **Exploratory Data Analysis**
 
