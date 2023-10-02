@@ -67,7 +67,7 @@ To see if **sentiment analysis** of **Amazon** product **reviews** might offer *
 
 To determine whether **suggestions** for **business strategies** can be gleaned from the **sentiment analysis** of **customer evaluations**.
 
-To investigate how **insights** from **sentiment analysis** might **improve marketing**, **sales forecasting**, **customer service** and ••product development**.
+To investigate how **insights** from **sentiment analysis** might **improve marketing**, **sales forecasting**, **customer service** and **product development**.
 
 
 ## Dataset
