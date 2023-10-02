@@ -10,7 +10,7 @@
 
 ### Business Insights and Applications:
 
-Code can be found [here](https://github.com/aeryllvon/sentiment-analysis/blob/main/NLP_Amazon.ipynb)
+Code can be found [here](https://github.com/aeryllvon/sentiment-analysis/blob/main/NLP_Amazon.ipynb).
 
 
 **Strategic Business Decision:**
@@ -19,19 +19,19 @@ The **insights** derived from the **sentiment analysis** can help businesses und
 
 **Product Development:**
 
-Direct contributions to the product development process can be made by incorporating the insights derived from negative and neutral reviews, focusing on the areas that need improvement.
+Direct contributions to the **product development process** can be made by incorporating the **insights** derived from negative and neutral reviews, focusing on the areas that need **improvement**.
 
 **Customer Service Enhancement:**
 
-Understanding customer sentiments can help in improving customer service by addressing the concerns and preferences of the customers, which are reflected in the reviews.
+**Understanding customer sentiments** can help in **improving customer service** by addressing the concerns and preferences of the customers, which are reflected in the reviews.
 
 **Marketing Strategies Integration:**
 
-The findings from the sentiment analysis can be integrated into marketing strategies by leveraging positive reviews for promotions and addressing the concerns mentioned in negative reviews to enhance product appeal.
+The findings from the **sentiment analysis** can be **integrated** into **marketing strategies** by leveraging positive reviews for **promotions** and **addressing** the **concerns** mentioned in negative reviews to **enhance product** appeal.
 
 **Sales Forecasting:**
 
-Positive and negative sentiments can influence sales forecasting by helping to understand customer purchasing behavior and preferences, thus allowing more accurate and customer-oriented product placements and offerings.
+**Positive** and **negative** **sentiments** can influence **sales forecasting** by helping to **understand** customer purchasing **behavior** and preferences**, thus allowing more **accurate** and **customer-oriented product** **placements** and **offerings**.
 
 
 **Model and Evaluation**
@@ -44,35 +44,35 @@ Positive and negative sentiments can influence sales forecasting by helping to u
 - **Epoch-wise Accuracy**
 
 - **Epoch 1:**
-    - Training Accuracy: 78.18%
-    - Validation Accuracy: 78.30%
+    - Training Accuracy: **78.18%**
+    - Validation Accuracy: **78.30%**
 - **Epoch 2:**
-    - Training Accuracy: 78.79%
-    - Validation Accuracy: 78.04%
+    - Training Accuracy: **78.79%**
+    - Validation Accuracy: **78.04%**
 - **Epoch 3:**
-    - Training Accuracy: 79.52%
-    - Validation Accuracy: 77.88%
+    - Training Accuracy: **79.52%**
+    - Validation Accuracy: **77.88%**
 - **Epoch 4:**
-    - Training Accuracy: 79.82%
-    - Validation Accuracy: 77.47%
+    - Training Accuracy: **79.82%**
+    - Validation Accuracy: **77.47%**
 - **Epoch 5:**
-    - Training Accuracy: 79.92%
-    - Validation Accuracy: 77.54%
+    - Training Accuracy: **79.92%**
+    - Validation Accuracy: **77.54%**
 
 **Vader - 76.69% Accuracy**
 
 ## Objective:
 
-To see if sentiment analysis of Amazon product reviews might offer useful information for making strategic business decisions.
+To see if **sentiment analysis** of **Amazon** product **reviews** might offer **useful information** for making **strategic business decisions**.
 
-To determine whether suggestions for business strategies can be gleaned from the sentiment analysis of customer evaluations.
+To determine whether **suggestions** for **business strategies** can be gleaned from the **sentiment analysis** of **customer evaluations**.
 
-To investigate how insights from sentiment analysis might improve marketing, sales forecasting, customer service and product development.
+To investigate how **insights** from **sentiment analysis** might **improve marketing**, **sales forecasting**, **customer service** and ••product development**.
 
 
 ## Dataset
 
-The dataset consisted of product reviews, each labeled with a score indicating the sentiment of the review. a score above 3 was considered positive, below 3 was considered negative and a score of 3 was neutral.
+The **dataset** consisted of **product reviews**, each labeled with a score indicating the sentiment of the review. a **score** **above 3** was considered **positive**, **below 3** was considered **negative** and a **score** of **3** was **neutral**.
 
 | Column                 | Non-Null Count | Dtype |
 |------------------------|----------------|-------|
@@ -96,7 +96,7 @@ The **raw** text data was **preprocessed** by removing **HTML** tags, converting
 
 **Exploratory Data Analysis**
 
-Visualised the initial **distribution** of **sentiments** and generated **WordClouds** for each sentiment class after **preprocessing** the text.
+**Visualised** the initial **distribution** of **sentiments** and generated **WordClouds** for each sentiment class after **preprocessing** the text.
 
 ![sentimentdistribution](initialsentiment.png)
 
@@ -108,7 +108,7 @@ Employed **SMOTE** to handle **class imbalance** in the dataset.
 
 **Model Training and Evaluation** 
 
-Multiple models were trained and evaluated on the processed dataset using **accuracy** and **classification report**.
+**Multiple models** were **trained** and **evaluated** on the **processed dataset** using **accuracy** and **classification report**.
 
 **Logistic Regression**
 
@@ -124,7 +124,7 @@ Multiple models were trained and evaluated on the processed dataset using **accu
 
 #### Insights
 - **Accuracy**: 77.69%
-- Logistic Regression model provided a decent accuracy and fared well in classifying positive sentiments but struggled more with neutral and negative classes, particularly with precision in the neutral class.
+- **Logistic Regression** model provided a decent accuracy and fared well in classifying positive sentiments but struggled more with neutral and negative classes, particularly with precision in the neutral class.
 
 
 
@@ -142,7 +142,7 @@ Multiple models were trained and evaluated on the processed dataset using **accu
 
 #### Insights
 - **Accuracy**: 82.57%
-- The Random Forest model yielded the highest accuracy among the models and demonstrated a substantial ability to classify positive sentiments, but it had lower recall for the negative and neutral classes.
+- The **Random Forest** model yielded the highest accuracy among the models and demonstrated a substantial ability to classify positive sentiments, but it had lower recall for the negative and neutral classes.
 
 
 **Naive Bayes**
@@ -160,7 +160,7 @@ Multiple models were trained and evaluated on the processed dataset using **accu
 
 #### Insights
 - **Accuracy**: 71.26%
-- The Naive Bayes model, while having the lowest accuracy, showed a balanced recall among the classes, notably performing well in identifying neutral sentiments which other models struggled with.
+- The **Naive Bayes model**, while having the lowest accuracy, showed a balanced recall among the classes, notably performing well in identifying neutral sentiments which other models struggled with.
 
 
 
@@ -175,7 +175,7 @@ Multiple models were trained and evaluated on the processed dataset using **accu
 | 5     | 79.92%            | 77.54%              |
 
 #### Insights
-- The RNN model gradually improved its training accuracy over epochs but had a slight decrease in validation accuracy, suggesting possible overfitting to the training data. Nonetheless, it managed to achieve around 77% accuracy on unseen data, showing its potential efficacy in sentiment classification tasks involving sequential data.
+- The **RNN** model gradually improved its training accuracy over **epochs** but had a slight decrease in validation accuracy, suggesting possible overfitting to the training data. Nonetheless, it managed to achieve around 77% accuracy on unseen data, showing its potential efficacy in sentiment classification tasks involving sequential data.
 
 
 **Vader**
@@ -193,8 +193,10 @@ Multiple models were trained and evaluated on the processed dataset using **accu
 
 
 #### Insights
+
 - **Accuracy**: 76.79%
-- Vader performed reasonably well in accuracy, excelling particularly at classifying positive sentiments. However, it showed limitations in precisely identifying neutral and negative sentiments, possibly due to its reliance on a predefined lexicon and inherent challenges in interpreting the contextual meaning of words.
+- **Vader** performed reasonably well in accuracy, excelling particularly at classifying positive sentiments. However, it showed limitations in precisely identifying neutral and negative sentiments, possibly due to its reliance on a predefined lexicon and inherent challenges in interpreting the contextual meaning of words.
+
 
 
 
